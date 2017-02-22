@@ -1,0 +1,82 @@
+body {
+	background-color: #35BDB2 !important;
+}
+/* メインコンテンツ全て */
+.main {
+	position: relative;
+	top: 70px;
+}
+/* ロゴ画像 */
+.ui.image {
+	width: 25px;
+}
+/* ロゴテキスト */
+.logo_text {
+	margin-left: 10px;
+}
+/* アイコンを囲うセクション */
+.iconlist {
+	padding: 10px !important;
+}
+/* アイコン */
+.column .icon {
+	display: block;
+	margin: 0 auto;
+	font-size: 2em;
+}
+/* アイコンのグリッド */
+.iconlist >.column {
+	transition: all 0.1s;
+	height: 46px;
+}
+/* アイコンのグリッド:ホバー */
+.iconlist >.column:hover {
+	transition: all 0.1s;
+	background-color: #35BDB2;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+/* メニュー */
+.hovmenu {
+	padding: 15px !important;
+	border-radius: 10px;
+	background-color: #35BDB2 !important;
+	box-shadow: 2px 2px rgba(0,0,0,0.4) !important;
+}
+/* チェックボックス + ラベル */
+.ui.toggle.checkbox{
+	margin: 10px;
+}
+/* 全てのラベル */
+.ui.empty.label{
+	transition: all 1.5s;
+}
+.ui.empty.label:active{
+	transition: all 0.2s;
+	transform: scale(1.9) !important;
+}
+/* 黒ラベル */
+.ui.black.empty.circular.label
+{
+	background-color: #383838 !important;
+}
+.seglabel{
+	background-color: rgb(43, 159, 149) !important;
+}
+.blackco
+{
+	background-color: #1B1C1D !important;
+	color: white !important;
+}
+.labelp{
+	position: relative;
+	font-weight: bold;
+	bottom: 2px;
+}
+.vtag{
+	position: relative;
+	height: 26px !important;
+	top: 17px;
+	left: 10px;
+}
